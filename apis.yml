@@ -1,8 +1,30 @@
 aid: goodr
 name: Goodr
-description: Goodr is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Goodr is an Atlanta-based sustainable surplus food management and hunger-relief
+  logistics company founded in 2016 by Jasmine Crowe-Houston. Goodr helps businesses
+  divert edible and inedible food waste from landfills by scheduling pickups, donating
+  surplus edible food to local nonprofits, and providing donors with the tax deductions
+  and impact reporting tied to those donations. Alongside its food-waste solutions,
+  Goodr runs hunger-relief programs including pop-up grocery markets, meal delivery,
+  student snackpacks, and community grocery stores. The company reports more than 30
+  million meals served and 4 million pounds of food diverted from landfills for enterprise
+  partners such as Amazon, Google, NASA, and Fulton County. Goodr operates through a
+  partner portal rather than a public developer API; this profile tracks its public
+  web properties in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/goodr/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://goodr.co/wp-content/uploads/goodr-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food Waste
+- Sustainability
+- Food Recovery
+- Hunger Relief
+- Logistics
+- Impact
+- Waste Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/goodr-domain-security.yml
 - type: Website
   url: https://goodr.co/
+- type: Portal
+  url: https://portal.goodr.co/
+- type: Login
+  url: https://portal.goodr.co/
+- type: Blog
+  url: https://goodr.co/category/blog/
+- type: Support
+  url: https://goodr.co/contact/
+- type: TermsOfService
+  url: https://goodr.co/terms/
+- type: PrivacyPolicy
+  url: https://goodr.co/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
